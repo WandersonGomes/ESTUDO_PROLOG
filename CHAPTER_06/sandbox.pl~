@@ -1,0 +1,1 @@
+leitura(E) :- write(user_output, 'Alguma coisa'), readln(user_input, E), write(E).

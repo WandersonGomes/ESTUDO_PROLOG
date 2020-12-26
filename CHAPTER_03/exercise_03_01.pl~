@@ -1,0 +1,7 @@
+% facts
+joga(ana, volei).
+joga(bla, tenis).
+joga(ivo, basquete).
+joga(eva, volei).
+joga(leo, tenis).
+

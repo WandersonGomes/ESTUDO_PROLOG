@@ -1,0 +1,11 @@
+% Tarefa: Atividade Avaliativa Sobre Prolog
+% Capitulo: 06
+% Exercicio: 6.1
+% Enunciado:
+% Implemente os predicados liga, desliga e lampada para que eles
+% funcionem conforme indicado pelos exemplos a seguir:
+%
+% facts
+lampada(apagada).
+liga :- retract(lampada(apagada)), asserta(lampada(acessa)).
+desliga :- retract(lampada(acessa)), asserta(lampada(apagada)).
